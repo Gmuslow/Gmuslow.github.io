@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shift Reduce Parser</title>
+        <link rel="stylesheet" type="text/css" href="gui_style.css">
+        <script type="module" src="SR_parser.js"></script>
+        <script type="module" src="GUI_handler.js"></script>
+        
+        
+    </head>
+
+    <body>
+        
+        <h1>Shift Reduce Parser</h1>
+        <h2>By: Grant Muslow</h2>
+        <table id="parseTable">
+            <tr>
+                <th colspan="3">ACTION</th>
+            </tr>
+        </table>
+        <table id="gotoTable">
+            <tr>
+                <th colspan="3">GOTO</th>
+            </tr>
+        </table>
+        <br>
+        <div id="tokenInput">
+            <div id="inc/dec">
+                <button id="inc">+</button>
+                <button id="dec">-</button>
+                <input id="delay" value="500">
+                <label for="delay">Delay</label>
+            </div>
+            <div id="tokenStream"></div>
+            <button id="startParse">Start Parsing Current Tokens</button>
+            <button id="goBackward"><-</button>
+            <button id="goForward">-></button>
+           
+        </div>
+        <div id="productionRules">
+            <p>Production Rules</p>
+        </div>
+        <br><br><br><br>
+        <div id="parsingSteps">
+            <p>Parsing Steps</p>
+        </div>
+        
+    </body>
+</html>

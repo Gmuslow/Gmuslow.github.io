@@ -1,0 +1,60 @@
+body {
+    background-color: lightblue;
+}
+h1, h2 {
+    text-align: center;
+}
+#tokenInput {
+    background-color: lightgreen;
+}
+
+table, th, td {
+    border: 1px solid black;
+    background-color: lightgrey;
+    padding:1px;
+    text-align: center;
+  }
+table {
+    float: left;
+    table-layout: fixed;
+}
+
+td {
+    height: 25px;
+}
+
+.tokenInput {
+    width: 20px;
+}
+#delay {
+    width: 40px;
+}
+
+.step {
+    background-color: aqua;
+    border-radius: 2px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 0px;
+}
+
+#parsingSteps {
+    
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    background-color: burlywood;
+    border-radius: 10px;
+    height: 100%;
+    overflow-y: scroll;
+    
+}
+
+#productionRules{
+    width: 40%; /* set the width to 80% of the parent element */
+  margin: 0 auto; /* center the element horizontally */
+  background-color: #ffffff; /* set the background color to white */
+  text-align: center;
+  
+}
